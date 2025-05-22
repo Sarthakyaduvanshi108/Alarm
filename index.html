@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.5/dist/sweetalert2.all.min.js"></script>
+    <title>Alarm Clock </title>
+</head>
+<body>
+   <div class="container">
+    <h1> Web Alarm Clock</h1>
+        <img src="clock.png" width="103" alt="clock">
+        <h2>09:05:30 AM</h2>
+        <div class="content-box">
+            <div class="culumn">
+                <select>
+                    <option value="Hour" selected hidden>Hour</option>
+                    <option value="01">01</option>
+                    <option value="02">02</option>
+                    <option value="03">03</option>
+                </select>
+            </div>
+            <div class="culumn">
+               <select>
+                    <option value="Minute" selected hidden>Minute</option>
+                    <option value="01">01</option>
+                    <option value="02">02</option>
+                    <option value="03">03</option>
+                </select> 
+            </div>
+            <div class="culumn">
+                <select>
+                    <option "AM/PM" selected hidden>AM/PM</option>
+                    <option value="AM">AM</option>
+                    <option value="PM">PM</option>
+                </select>
+            </div>
+        </div>
+        <button>Set Alarm</button>
+  </div>
+   <script src="index.js"></script>
+</body>
+</html>
